@@ -26,11 +26,11 @@ The following section has a list of features. Some generic naming conventions ar
 
 5. The **"Mean"** phrase indicates that the value is the average value of the specific feature for a specifc subject and the associated activity performed by that subject. Similarly, the **"Std"** phrase indicates that the value is the Standard Deviation value of the specific feature for a specific subject and the associated activity peformed by that subject. Examples - tBodyAccJerk**Mean**Z, tBodyAccJerk**Std**Z  
 
-6.The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. These features have a phrase **"Jerk"** as part of the name. Examples - tBodyAcc**Jerk**MeanX and tBodyGyro**Jerk**MeanX  
+6. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. These features have a phrase **"Jerk"** as part of the name. Examples - tBodyAcc**Jerk**MeanX and tBodyGyro**Jerk**MeanX  
 
-7.The magnitude of these three-dimensional signals were calculated using the Euclidean norm. These features have a  phrase **"Mag"** as part of the name. Examples - tBodyAcc**Mag**Mean, tGravityAcc**Mag**Std  
+7. The magnitude of these three-dimensional signals were calculated using the Euclidean norm. These features have a phrase **"Mag"** as part of the name. Examples - tBodyAcc**Mag**Mean, tGravityAcc**Mag**Std  
 
-8. Additional vectors obtained by averaging the signals in a signal window sample. These are identified with the **"angle"** in the feature name. used on the angle variable. Examples - **angle**XGravityMean
+8. Additional vectors obtained by averaging the signals in a signal window sample. These are identified with the **"angle"** in the feature name. used on the angle variable. Examples - **angle**XGravityMean  
 
 ## Comprehensive list of features  
 
