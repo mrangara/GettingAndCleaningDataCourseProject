@@ -55,11 +55,12 @@ assignment
 8. features.txt  
 + File has the name of each variable provided in the input data files  
 9. feature_info.txt  
-+ File has information about each of the variables in the features.txt file 
++ File has information about each of the variables in the features.txt file  
 
-**KEY ASSUMPTION**: All the data files must be in the same directory as the run_analysis.R file
+**KEY ASSUMPTION**: All the data files must be in the same directory as the run_analysis.R file  
 
-## High level Steps
+## High level Steps  
+
 **Step 1** : Read and merge measurements for diff activities from the test and training data set  
 **Step 2** : Read and merge labels for diff activities from the test and training data set  
 **Step 3** : Map descriptive activity names associated with the labels  
@@ -69,4 +70,4 @@ assignment
 **Step 7** : Aggregate the activity names (from STEP 3) and subjects (from STEP 4) into a consolidated data set  
 **Step 8** : Melt the consolidated data using Subjects and ActivityNames as the id. This step is needed for further analysis  
 **Step 9** : Recast the molten data to have a single row for each subject and each activity and the average value (from multiple observations for that activity from that subject)  
-**Step 10**: Create an output file of the resulting data set from Step 9
+**Step 10**: Create an output file of the resulting data set from Step 9  
